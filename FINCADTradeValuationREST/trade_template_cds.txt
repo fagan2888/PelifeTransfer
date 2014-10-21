@@ -1,0 +1,136 @@
+{
+    "definition": "<f><n>CreateEntity</n><a><p><n>Entity</n><v>${EntityName}</v></p><p><n>LegalName</n><v>${LegalName}</v></p></a></f><f><n>CreateCreditEntity</n><a><p><n>CreditEntityName</n><v>${CreditEntityName}</v></p><p><n>Entity</n><v>${Entity}</v></p><p><n>AgreementType</n><v>${AgreementType}</v></p></a></f><f><n>CreateSingleNameCreditContract</n><a><p><n>Name</n><v>${ContractName}</v></p><p><n>CreditEntity</n><v>${CreditEntity}</v></p></a></f><f><n>CreateSingleEventCreditDefaultSwap</n><a><p><n>ProductName</n><v>${ProductName}</v></p><p><n>StartDate</n><v>${StartDate}</v></p><p><n>Maturity</n><v>${Maturity}</v></p><p><n>Notional</n><v>${Notional}</v></p><p><n>Currency</n><v>${Currency}</v></p><p><n>CreditContract</n><v>${CreditContract}</v></p><p><n>Premium</n><v>${Premium}</v></p><p><n>UpfrontFee</n><v>${UpfrontFee}</v></p><p><n>PayAccruedInterestUponDefault</n><v>${PayAccruedInterestUponDefault}</v></p><p><n>MarketConvention</n><v>${MarketConvention}</v></p><p><n>WeightDefaultUnit</n><v>${WeightDefaultUnit}</v></p><p><n>WeightDefaultRecovery</n><v>${WeightDefaultRecovery}</v></p><p><n>PayRec</n><v>${PayRec}</v></p><p><n>OffsettingMarketConvention</n><v>${OffsettingMarketConvention}</v></p></a></f>", 
+    "version_number": 2, 
+    "name": "cds4", 
+    "parameters": [
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "EntityName", 
+            "f3type": "repository_object_name"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "LegalName", 
+            "f3type": "entity_legal_name"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "CreditEntityName", 
+            "f3type": "repository_object_name"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "Entity", 
+            "f3type": "entity"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "AgreementType", 
+            "f3type": "credit_agreement"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "ContractName", 
+            "f3type": "repository_object_name"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "CreditEntity", 
+            "f3type": "credit_entity"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "ProductName", 
+            "f3type": "repository_object_name"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "StartDate", 
+            "f3type": "date"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "Maturity", 
+            "f3type": "maturity_descriptor"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "Notional", 
+            "f3type": "notional_structure"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "Currency", 
+            "f3type": "currency"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "CreditContract", 
+            "f3type": "credit_contract"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "Premium", 
+            "f3type": "real"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "UpfrontFee", 
+            "f3type": "real"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "PayAccruedInterestUponDefault", 
+            "f3type": "boolean"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "MarketConvention", 
+            "f3type": "market_conventions"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "WeightDefaultUnit", 
+            "f3type": "real"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "WeightDefaultRecovery", 
+            "f3type": "real"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "PayRec", 
+            "f3type": "payrec"
+        }, 
+        {
+            "external_input_type": "", 
+            "default_value": "", 
+            "name": "OffsettingMarketConvention", 
+            "f3type": "market_conventions"        
+        }
+    ],     
+    "external_id": "cds4", 
+    "format": "f3ml",
+    "tags": []
+}

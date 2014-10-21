@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TradeValuation
+</name>
+</assembly>
+<members>
+<member name="M:TradeValuation.fincad.F3Formatter.f3_style_serialization(System.String,System.Object)">
+	<summary>
+ F3 Function Call string builder
+ </summary>
+	<param name="function_name"></param>
+	<param name="obj"></param>
+	<returns></returns>
+</member><member name="M:TradeValuation.fincad.F3Formatter.Serialize(System.IO.Stream,System.Object)">
+	<summary>
+	</summary>
+	<param name="serializationStream"></param>
+	<param name="f3obj"></param>
+</member><member name="M:TradeValuation.fincad.F3Formatter.Serialize2(System.IO.Stream,System.String,System.Object)">
+	<summary>
+ F3 Object Serialzation (Function call string builder)
+ </summary>
+	<param name="serializationStream"></param>
+	<param name="function_name"></param>
+	<param name="f3obj"></param>
+</member><member name="P:TradeValuation.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TradeValuation.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TradeValuation.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
